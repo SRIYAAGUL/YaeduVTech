@@ -338,7 +338,7 @@ export default function Home() {
                                             width: "auto",
                                             objectFit: "cover",
                                         }}
-                                         data-aos="fade-right"
+                                        data-aos="fade-right"
                                     />   About US
                                 </h2>
 
@@ -389,7 +389,7 @@ export default function Home() {
                                 width: "auto",
                                 objectFit: "cover",
                             }}
-                       data-aos="fade-right" />   Explore Our Course Categories
+                            data-aos="fade-right" />   Explore Our Course Categories
                     </h2>
 
                     <p
@@ -475,7 +475,7 @@ export default function Home() {
                                 width: "auto",
                                 objectFit: "cover",
                             }}
-                       data-aos="fade-right" />  We Are Offering
+                            data-aos="fade-right" />  We Are Offering
                     </h2>
 
                     <div className="row g-4 justify-content-center">
@@ -505,7 +505,7 @@ export default function Home() {
                   )`
                                         : "#ffffff",
                             }}
-                              data-aos="flip-right">
+                                data-aos="flip-right">
                                 {/* Responsive icon */}
                                 <div className="py-3">
                                     <i
@@ -537,7 +537,7 @@ export default function Home() {
                   )`
                                         : "#ffffff"
                             }}
-                             data-aos="flip-right">
+                                data-aos="flip-right">
                                 {/* Responsive icon */}
                                 <div className="py-3">
                                     <i
@@ -569,7 +569,7 @@ export default function Home() {
                   )`
                                         : "#ffffff"
                             }}
-                             data-aos="flip-right">
+                                data-aos="flip-right">
                                 {/* Responsive icon */}
                                 <div className="py-3">
                                     <i
@@ -606,7 +606,7 @@ export default function Home() {
                                 width: "auto",
                                 objectFit: "cover",
                             }}
-                       data-aos="fade-right" />
+                            data-aos="fade-right" />
                         Why Learn with Yaedu VTech
                     </h2>
                     <p className="text-muted mb-4">
@@ -617,7 +617,7 @@ export default function Home() {
 
                         {/* 🧩 Customize Your Learning */}
                         <div className="col-12 col-md-3">
-                            <div className="card border-0 shadow-sm h-100 rounded-4 p-4 text-start"  data-aos="zoom-out">
+                            <div className="card border-0 shadow-sm h-100 rounded-4 p-4 text-start" data-aos="zoom-out">
                                 <div className="mb-3">
                                     <i className="fa-solid fa-layer-group fa-3x" style={{ color: "rgba(12, 112, 199, 0.75)" }}></i> {/* pastel teal */}
                                 </div>
@@ -630,7 +630,7 @@ export default function Home() {
 
                         {/* 💼 Portfolio Development */}
                         <div className="col-12 col-md-3">
-                            <div className="card border-0 shadow-sm h-100 rounded-4 p-4 text-start"  data-aos="zoom-out">
+                            <div className="card border-0 shadow-sm h-100 rounded-4 p-4 text-start" data-aos="zoom-out">
                                 <div className="mb-3">
                                     <i className="fa-solid fa-briefcase fa-3x" style={{ color: "rgba(12, 112, 199, 0.75)" }}></i> {/* pastel blue */}
                                 </div>
@@ -643,7 +643,7 @@ export default function Home() {
 
                         {/* 🌟 Learn & Earn Opportunities */}
                         <div className="col-12 col-md-3">
-                            <div className="card border-0 shadow-sm h-100 rounded-4 p-4 text-start"  data-aos="zoom-out">
+                            <div className="card border-0 shadow-sm h-100 rounded-4 p-4 text-start" data-aos="zoom-out">
                                 <div className="mb-3">
                                     <i className="fa-solid fa-coins fa-3x" style={{ color: "rgba(12, 112, 199, 0.75)" }}></i> {/* pastel orange */}
                                 </div>
@@ -656,7 +656,7 @@ export default function Home() {
 
                         {/* 🎯 Career Guidance */}
                         <div className="col-12 col-md-3">
-                            <div className="card border-0 shadow-sm h-100 rounded-4 p-4 text-start"  data-aos="zoom-out">
+                            <div className="card border-0 shadow-sm h-100 rounded-4 p-4 text-start" data-aos="zoom-out">
                                 <div className="mb-3">
                                     <i className="fa-solid fa-user-tie fa-3x" style={{ color: "rgba(12, 112, 199, 0.75)" }}></i> {/* pastel pink */}
                                 </div>
@@ -689,7 +689,7 @@ export default function Home() {
                                 width: "auto",
                                 objectFit: "cover",
                             }}
-                      data-aos="fade-right"  />
+                            data-aos="fade-right" />
                         Contact Us
                     </h2>
 
@@ -706,7 +706,7 @@ export default function Home() {
                                         borderTopLeftRadius: "0.5rem",
                                         borderBottomLeftRadius: "0.5rem",
                                     }}
-                              />
+                                />
                             </div>
                         </div>
 
@@ -785,17 +785,23 @@ export default function Home() {
                                             required
                                         ></textarea>
                                     </div>
-                                    <div className="d-flex flex-column flex-md-row align-items-center justify-content-between mt-3 gap-3 text-center text-md-start">
+                                    <div className="d-flex flex-column flex-md-row align-items-center justify-content-between mt-3 gap-2 text-center text-md-start">
                                         {/* Email + Phone */}
-                                        <div className="d-flex flex-column flex-md-row align-items-center justify-content-center justify-content-md-start gap-3">
+                                        <div className="d-flex flex-column flex-md-row align-items-center justify-content-center justify-content-md-start gap-2">
                                             <p className="mb-0 d-flex align-items-center">
                                                 <i className="fa-solid fa-envelope me-2" style={{ color: "#131f34" }}></i>
                                                 yaeduvtech@gmail.com
                                             </p>
 
-                                            <p className="mb-0 d-flex align-items-center">
+                                            <p
+                                                className="mb-0 d-flex align-items-center"
+                                                style={{
+                                                    color: "#131f34",
+                                                    display: window.innerWidth >= 768 && window.innerWidth <= 991 ? "none" : "flex",
+                                                }}
+                                            >
                                                 <i className="fa-solid fa-phone me-2" style={{ color: "#131f34" }}></i>
-                                                9150599502 / 9344179502
+                                                9150599502, 9344179502
                                             </p>
                                         </div>
 
