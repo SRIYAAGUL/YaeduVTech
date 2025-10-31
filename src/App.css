@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+/* ---------- Global Reset ---------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  scroll-behavior: smooth;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* ---------- Base Font Setup ---------- */
+body {
+  font-family: "Poppins", sans-serif;
+  color: #131f34;
+  background-color: #ffffff;
+  line-height: 1.6;
+}
+
+/* ---------- Responsive Typography ---------- */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  color: #131f34;
+}
+
+/* Default desktop sizes */
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.75rem; }
+h4 { font-size: 1.5rem; }
+h5 { font-size: 1.25rem; }
+h6 { font-size: 1rem; }
+
+p, button, input, textarea, a {
+  font-size: 1rem;
+}
+
+/* ---------- Responsive Breakpoints ---------- */
+
+/* Tablets (≤ 992px) */
+@media (max-width: 992px) {
+  h1 { font-size: 2.2rem; }
+  h2 { font-size: 1.8rem; }
+  h3 { font-size: 1.6rem; }
+  p, button, input, textarea, a {
+    font-size: 0.95rem;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Mobile (≤ 768px) */
+@media (max-width: 768px) {
+  h1 { font-size: 1.9rem; }
+  h2 { font-size: 1.6rem; }
+  h3 { font-size: 1.4rem; }
+  h4 { font-size: 1.2rem; }
+  p, button, input, textarea, a {
+    font-size: 0.9rem;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+/* Small Mobile (≤ 576px) */
+@media (max-width: 576px) {
+  h1 { font-size: 1.6rem; }
+  h2 { font-size: 1.4rem; }
+  h3 { font-size: 1.2rem; }
+  h4 { font-size: 1.1rem; }
+  h5 { font-size: 1rem; }
+  p, button, input, textarea, a {
+    font-size: 0.85rem;
   }
 }
