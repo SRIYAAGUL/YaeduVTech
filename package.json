@@ -2,7 +2,7 @@
   "name": "company",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://SRIYAAGUL.github.io/YaeduVTech",
+  "homepage": ".",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^7.1.0",
     "@testing-library/dom": "^10.4.1",
