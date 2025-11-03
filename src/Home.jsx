@@ -793,13 +793,13 @@ export default function Home() {
                                                 yaeduvtech@gmail.com
                                             </p>
 
-                                           <p
-  className="mb-0 d-flex d-md-none d-lg-flex align-items-center"
-  style={{ color: "#131f34" }}
->
-  <i className="fa-solid fa-phone me-2" style={{ color: "#131f34" }}></i>
-  9150599502 / 9344179502
-</p>
+                                            <p
+                                                className="mb-0 d-flex d-md-none d-lg-flex align-items-center"
+                                                style={{ color: "#131f34" }}
+                                            >
+                                                <i className="fa-solid fa-phone me-2" style={{ color: "#131f34" }}></i>
+                                                9150599502 / 9344179502
+                                            </p>
                                         </div>
 
                                         {/* Button */}
